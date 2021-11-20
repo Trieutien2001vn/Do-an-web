@@ -49,3 +49,21 @@ function imgAuto(){
     imgNumberLi[index].classList.add('active')
 }
 setInterval(imgAuto,5000)
+// slider product control................................................
+const rightbtn2 = document.querySelector('.fa-chevron-right-2')
+const leftbtn2 = document.querySelector('.fa-chevron-left-2')
+const imgNumber2 = document.querySelectorAll('.slider-product-one-content-items')
+rightbtn2.addEventListener("click",function(){
+    index = index+1
+    if(index>imgNumber2.length-1){
+        index=0
+    }
+    document.querySelector('.slider-product-one-content-items-wrap').style.right = index *100+"%"
+})
+leftbtn2.addEventListener("click",function(){
+    index = index-1
+    if(index <=0){
+        index=imgNumber2.length-1
+    }
+    document.querySelector('.slider-product-one-content-items-wrap').style.right = index *100+"%"
+})
