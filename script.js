@@ -67,3 +67,21 @@ leftbtn2.addEventListener("click",function(){
     }
     document.querySelector('.slider-product-one-content-items-wrap').style.right = index *100+"%"
 })
+// Product Gallery control
+const rightbtn3 = document.querySelector('.fa-chevron-right-3')
+const leftbtn3 = document.querySelector('.fa-chevron-left-3')
+const imgNumber3 = document.querySelectorAll('.product-gallery-two-content-right-bottom-items')
+rightbtn3.addEventListener("click",function(){
+    index = index+1
+    if(index>imgNumber3.length-1){
+        index=0
+    }
+    document.querySelector('.product-gallery-two-content-right-bottom-wrap').style.right = index *100+"%"
+})
+leftbtn3.addEventListener("click",function(){
+    index = index-1
+    if(index <=0){
+        index=imgNumber3.length-1
+    }
+    document.querySelector('.product-gallery-two-content-right-bottom-wrap').style.right = index *100+"%"
+})
