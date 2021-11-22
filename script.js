@@ -85,3 +85,11 @@ leftbtn3.addEventListener("click",function(){
     }
     document.querySelector('.product-gallery-two-content-right-bottom-wrap').style.right = index *100+"%"
 })
+// footer
+const viewbtn = document.querySelector('.show-list')
+const listHidden = document.querySelector('.list-option:last-of-type')
+viewbtn.onclick = function(e){
+    listHidden.style = `transform:scaleY(1);`
+    e.target.remove()
+}
+

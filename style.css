@@ -630,6 +630,7 @@ nav ul li:nth-child(9):hover a{
     width: 20%;
 }
 .product-gallery-two-content-left > img{
+    cursor: pointer;
     width: 100%;
 }
 .product-gallery-two-content-right{
@@ -765,4 +766,103 @@ nav ul li:nth-child(9):hover a{
 }
 .product-gallery-two-content-right-bottom-item:hover img{
     transform: translateY(-30px);
+}
+/* Footer */
+/* footer top */
+.footer{
+    margin-top: 80px;
+    border-top: 2px solid rgb(219, 219, 219);
+}
+.footer-content-top{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+.footer-content-top-text{
+    width: 25%;
+}
+.footer-content-top-text-active{
+    height: 121px;
+
+}
+.show-list{
+    margin-top: 10px;
+}
+.footer-content-top-text .list-option{
+    display: flex;
+    flex-direction: column;
+    transform-origin: top;
+}
+.footer-content-top-text .list-option:last-of-type{
+    transform: scaleY(0);
+    transition: all 0.2s ease;
+}
+
+.footer-content-top-text li{
+    padding: 10px 0;
+}
+.footer-content-top-text li span{
+    font-size: 14px;
+}
+.footer-content-top-text li span a{
+    color: #2f80ed;
+    font-weight: bold;
+}
+.footer-content-top-text li a {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color:#333; 
+    transition: all 0.3s ease;
+}
+.footer-content-top-text li:hover a{
+    color: #2f80ed;
+}
+.show-list{
+    font-size: 14px;
+    color:#333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-content-top-text:hover .show-list{
+    color:lightskyblue;
+}
+
+.footer-content-top-text-social{
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+}
+.footer-content-top-text-social a i{
+    width: 18px;
+    height: 18px;
+    color: rgb(9, 9, 201);
+    border-radius: 50%;
+ 
+}
+.footer-content-top-text-social a{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #1c78f0;
+}
+.footer-content-top-text-social img{
+    cursor: pointer;
+    padding-right: 10px;
+    height: 25px;
+    width: 80px;
+}
+/* footer bottom */
+.footer-content-bottom{
+    margin-top: 10px;
+    background-color: #F1F1F1;
+}
+.footer-content-bottom p{
+    padding: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+.footer-content-bottom p a{
+    text-decoration: none;
+    transition: .2s;
+    color: #288ad6;
 }
