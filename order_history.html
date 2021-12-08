@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://kit.fontawesome.com//54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lịch sử đơn hàng</title>
+    <style>
+        .history {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .history-wrap {
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid rgb(206, 205, 205);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+
+        }
+
+        .history-wrap img {
+            width: 500px;
+            margin-bottom: 25px;
+
+        }
+
+        .history-wrap span {
+            font-size: 20px;
+            color: #333333;
+            /* font-weight: 0; */
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .history-wrap form {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 35px;
+        }
+
+        .history-wrap form span i {
+            color: #5EC1EC;
+            font-size: 25px;
+            margin-right: 5px;
+
+        }
+
+        .history-wrap form span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 50px;
+            border: 1px solid #E5E5E5;
+            border-radius: 100px;
+        }
+
+        .history-wrap form span input {
+            outline: none;
+            border: none;
+            /* text-align: center; */
+            width: 180px;
+            height: 50px;
+
+        }
+
+        .history-wrap form button {
+            background-image: linear-gradient(-106deg, #51beed 2%, #288ad6 100%);
+            box-shadow: 0 2px 6px 0 #9ed4ec;
+            border-radius: 100px;
+            width: 302px;
+            height: 50px;
+            border: none;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 17px;
+            max-width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://cdn.tgdd.vn/2021/12/banner/1200-44-1200x44-2.png" alt="">
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width: 100px;"
+                            src="http://rubee.com.vn/admin/webroot/upload/image//images/logo-the-gioi-di-dong-2.jpg"></a>
+                </li>
+                <li id="address-form"><a href="#">Hồ Chí Minh <i class="fas fa-sort-down"></i></a></li>
+                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fas fa-search"></i></li>
+                <li><a href="/no_cart.html"><button><i class="fas fa-shopping-cart"></i>Giỏ hàng</button></a></li>
+                <li><a href="">Lịch sử<br>đơn hàng</a></li>
+                <li><a href=""><span class="btn-content"><span class="btn-top"></span></span> Mua thẻ nạp ngay!</a></li>
+                <li><a href="">24h Công nghệ</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">Game app</a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <h2>Chọn địa chỉ nhận hàng <span id="address-close"><i style="color: #333; "
+                                    class="fas fa-times"> Đóng</i> </span></h2>
+                        <form action="">
+                            <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao</p>
+                            <select name="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Tp Hồ Chí Minh</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Quận/Huyện</option>
+                                <option value="#">Quận 9</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Phường/Xã</option>
+                                <option value="#">Tân Phú</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà, Tên đường">
+                            <button>Xác Nhận</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fas fa-mobile-alt"></i>Điện Thoại</a></li>
+                    <li><a href=""><i class="fas fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fas fa-tablet-alt"></i>Tablet</a></li>
+                    <li><a href=""><i class="fas fa-headphones-alt"></i>Phụ kiện <i class="fas fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <p class="submenu-title">PHỤ KIỆN DI ĐỘNG</p>
+                                <li><a href="">Pin sạc dự phòng</a></li>
+                                <li><a href="">Sạc, cáp</a></li>
+                                <li><a href="">Miếng dán màn hình</a></li>
+                                <li><a href="">Ốp lưng điện thoại</a></li>
+                                <li><a href="">Gậy tự sướng</a></li>
+                                <li><a href="">Giá đỡ laptop, điện thoại</a></li>
+                                <li><a href="">Đế, móc điện thoại</a></li>
+                                <li><a href="">Túi đựng Airpods</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a style="align-items: center;" href="">
+                            <ion-icon style="font-size: 16px;" name="watch-outline"></ion-icon> Đồng hồ
+                        </a></li>
+                    <li><a href=""><span class="PC"><i class=" fas fa-desktop"></i></span>Máy Tính <i
+                                class="fas fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Máy tính để bàn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Máy cũ giá rẻ</a></li>
+                    <li><a href="">Sim, thẻ cào</a></li>
+                    <li><a href="">Trả góp, điện nước</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <div class="container">
+            <div class="history-wrap">
+                <img src="https://www.thegioididong.com/lich-su-mua-hang/Content/images/i1.png" alt="">
+                <span>Tra cứu thông tin đơn hàng</span>
+                <form action="">
+                    <span>
+                        <i class="fas fa-mobile-alt"></i>
+                        <input type="tel" name="txtPhoneNumber" placeholder="Nhập số điện thoại mua hàng">
+                    </span>
+                    <button type="submit" class="btn">Tiếp tục</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-top">
+                    <div class="footer-content-top-text footer-content-top-text-active">
+                        <ul class="list-option">
+                            <li><a href="">Lịch sử mua hàng</a></li>
+                            <li><a href="">Cộng tác bán hàng cùng TGDĐ</a></li>
+                            <li><a href="">Tìm hiểu về mua trả góp</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                        </ul>
+                        <div class="show-list" href="">Xem thêm <i style="cursor: pointer;"
+                                class="fas fa-caret-down"></i></div>
+                        <ul class="list-option">
+                            <li class="hidden"><a href="">Chính sách đổi trả</a></li>
+                            <li class="hidden"><a href="">Giao hàng & Thanh toán</a></li>
+                            <li class="hidden"><a href="">Hướng dẫn mua online</a></li>
+                            <li class="hidden"><a href="">Bán hàng doanh nghiệp</a></li>
+                            <li class="hidden"><a href="">Phiếu mua hàng</a></li>
+                            <li class="hidden"><a href="">In hóa đơn điện tử</a></li>
+                            <li class="hidden"><a href="">Quy chế hoạt động</a></li>
+                            <li class="hidden"><a href="">Nội quy cửa hàng</a></li>
+                            <li class="hidden"><a href="">Chất lượng phục vụ</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div class="footer-content-top-text">
+                        <ul>
+                            <li><a href="">Giới thiệu công ty (MWG.vn)</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Gửi góp ý, khiếu nại</a></li>
+                            <li><a href="">Tìm siêu thị (2.831 shop)</a></li>
+                            <li><a href="">Xem bản mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-top-text">
+                        <ul>
+                            <li><strong style="font-size: 14px;">Tổng đài hỗ trợ</strong><a> (Miễn phí gọi)</a></li>
+                            <li><span>Gọi mua: <a href="">1800.1060</a> (7:30 - 22:00)</a></li>
+                            <li><span>Kỹ thuật: <a href="">1800.1763</a> (7:30 - 22:00)</a></li>
+                            <li><span>Khiếu nại: <a href="">1800.1062</a> (8:00 - 21:30)</a></li>
+                            <li><span>Bảo hành: <a href="">1800.1064</a> (8:00 - 21:00)</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-top-text">
+                        <div class="footer-content-top-text-social">
+                            <a href=""><i class="fab fa-facebook"></i> 3720.9k Fan</a>
+                            <a href=""><i style="color:rgb(238, 8, 8)" class="fab fa-youtube"></i> 1000k Đăng ký</a>
+                        </div>
+                        <div class="footer-content-top-text-social">
+                            <img src="https://s3.cloud.cmctelecom.vn/tinhte1/2018/04/4277831_upload_2018-4-2_14-40-43.png"
+                                alt="">
+                            <img src="https://www.dmca.com/img/dmca_logo.png?=sd" alt="">
+                            <img src="https://previews.123rf.com/images/aquir/aquir1704/aquir170412688/76642567-square-grunge-red-protected-stamp.jpg"
+                                alt="">
+                            <img src="https://soc.gov.vn/assets/img/logoNEWNCSC.png" alt="">
+                        </div>
+                        <div class="footer-content-top-text-social">
+                            Website cùng tập đoàn
+                        </div>
+                        <div class="footer-content-top-text-social">
+                            <img src="https://dienlanhdienmayxanh.com/wp-content/uploads/2018/01/foody-logo-dienmay-final-635947786757262452.jpg"
+                                alt="">
+                            <img src="https://cdn.tgdd.vn/bachhoaxanh/www/Content/images/logo.png" alt="">
+                            <img src="https://cdn.tgdd.vn/hoi-dap/651567/y-nghia-logo-cua-the-gioi-di-dong-la-gi1-800x450.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="footer-content-bottom">
+            <div class="container">
+                <p>© 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày
+                    02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.
+                    Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email:
+                    cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. <a href="">Xem chính sách sử
+                        dụng</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
