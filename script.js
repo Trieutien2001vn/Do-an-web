@@ -85,11 +85,19 @@ leftbtn3.addEventListener("click",function(){
     }
     document.querySelector('.product-gallery-two-content-right-bottom-wrap').style.right = index *100+"%"
 })
+
 // footer
 const viewbtn = document.querySelector('.show-list')
 const listHidden = document.querySelector('.list-option:last-of-type')
+let isOpen = false
 viewbtn.onclick = function(e){
-    listHidden.style = `transform:scaleY(1);`
-    e.target.remove()
+    if(!isOpen){
+        listHidden.style = `height: auto`
+        isOpen = !isOpen
+    }
+    else{
+        listHidden.style = `height: 0`
+        isOpen = !isOpen
+    }
 }
 
