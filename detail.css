@@ -482,7 +482,7 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("../../lib/owlCarousel/assets/owl.video.play.png") no-repeat;
+    /*background: url("../../lib/owlCarousel/assets/owl.video.play.png") no-repeat;*/
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -4866,7 +4866,7 @@ header.header.manusearch .header__search input {
 }
 
 .scrolling_inner.scroll-left::before {
-    background: linear-gradient(to left, rgba(255 255 255/0), rgba(255 255 255/1));
+    background: linear-gradient(to left, rgba(255 255 255), rgba(255 255 255/1));
     content: '';
     left: 0;
     height: 100%;
@@ -10694,11 +10694,53 @@ a#ss-now span label {
 #status-delivery .lddl, #status-delivery-2price .lddl {
     min-height: 60px;
     border-radius: 4px;
-    background: #f9f9f9;
+    background: white;
     position: relative;
     margin-bottom: 10px
 }
 
+ #status-delivery .lddl #buy {
+     position: absolute;
+     /*float: left;*/
+     top: 50%;
+     left: 20%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #f97e0f;
+     color: white;
+     font-size: 16px;
+     padding: 16px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ #status-delivery .lddl #buy:hover {
+     background-color: black;
+     color: white;
+ }
+
+ #status-delivery2 .lddl #add {
+     position: absolute;
+     /*float: left;*/
+     top: 116.5%;
+     left: 80%;
+
+     background-color: #1b6dc1;
+     color: white;
+     font-size: 16px;
+     padding: 16px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ #status-delivery2 .lddl #add:hover {
+     background-color: black;
+     color: white;
+ }
 .xtoydays .shcode .detail-fee {
     width: 16px;
     height: 16px;

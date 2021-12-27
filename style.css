@@ -209,7 +209,7 @@ nav ul li:nth-child(9):hover a{
     align-items: center;
     text-align: center;
     color: #333333;
-    display: none;
+    /*display: none;*/
 }
 .address-form-content{
     width: 450px;
@@ -382,7 +382,7 @@ nav ul li:nth-child(9):hover a{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0px;
+    padding: 0 0;
     justify-content: space-around;
 }
 .slider-content-right li{
