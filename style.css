@@ -303,7 +303,7 @@ nav ul li:nth-child(9):hover a{
     width: 7px;
     top: 12px;
     right: 10px;
-    z-index: 3;
+    z-index: 1;
     transform: rotate(45deg);
 }
 /*.....adress form....*/
@@ -315,12 +315,12 @@ nav ul li:nth-child(9):hover a{
     z-index: 3;
     top: 0;
     left: 0;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #333333;
-    /*display: none;*/
+    display: none;
 }
 .address-form-content{
     width: 450px;
