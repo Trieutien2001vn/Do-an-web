@@ -137,6 +137,7 @@
  }
  /*....menu-bar....*/
  .menu-bar{
+     width: 100%;
      background-color: #FED100;
 
  }
@@ -1360,7 +1361,7 @@ img {
 a {
     text-decoration: none;
     transition: .2s;
-    color: #288ad6
+    /* color: #288ad6 */
 }
 
 ul, ol {
@@ -1510,7 +1511,7 @@ input[type=text], input[type=tel], textarea {
 
 section {
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto
 }
 
