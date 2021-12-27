@@ -10704,7 +10704,7 @@ a#ss-now span label {
      position: absolute;
      /*float: left;*/
      top: 50%;
-     left: 20%;
+     left: 25%;
      transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
      background-color: #f97e0f;
@@ -10722,11 +10722,11 @@ a#ss-now span label {
      color: white;
  }
 
- #status-delivery2 .lddl #add {
+ #status-delivery .lddl #add {
      position: absolute;
      /*float: left;*/
-     top: 116.5%;
-     left: 80%;
+     top: 10%;
+     right: 10%;
 
      background-color: #1b6dc1;
      color: white;
@@ -10738,7 +10738,7 @@ a#ss-now span label {
      text-align: center;
  }
 
- #status-delivery2 .lddl #add:hover {
+ #status-delivery .lddl #add:hover {
      background-color: black;
      color: white;
  }

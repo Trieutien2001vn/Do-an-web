@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4ae362-ee27-4ba3-b0c1-0c156205f702" name="Changes" comment="chi tiet san pham">
-      <change beforePath="$PROJECT_DIR$/.idea/Do-an-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Do-an-web.iml" afterDir="false" />
+    <list default="true" id="dc4ae362-ee27-4ba3-b0c1-0c156205f702" name="Changes" comment="add button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/phone.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chi tiet san pham" />
-    <option name="LAST_COMMIT_MESSAGE" value="chi tiet san pham" />
+    <MESSAGE value="add button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button" />
   </component>
 </project>
